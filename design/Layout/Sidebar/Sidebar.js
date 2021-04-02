@@ -345,8 +345,8 @@ const SidebarRoot = ({
         ".ul-wrapper": SidebarStyle.ListContainer,
         ".li-selector": SidebarStyle.Item,
         "span,a": SidebarStyle.Label,
+        fontSize: 2,
       }}
-      fontSize={2}
     >
       {children}
       <Sidebar
